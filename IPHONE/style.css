@@ -1,0 +1,162 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+    :root {
+    --apagado: black;
+    --opacidade:   0
+    
+     }
+    
+    
+    .FUNDO{
+        background-color: rgb(71, 17, 122);
+        width: 100%;
+        height: 708px;
+    }
+        
+    .MEU-NOME {
+        position: absolute;
+        font-family: MEU-NOME;
+        font-size: 150%;
+        left: 45%;
+        color: black;
+        
+    }
+    .Clickligar{
+        font-size: 100%;
+       position: relative;
+        left: 290px;
+        top: 25px;
+    }
+    
+    .alinhamento{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        
+    }
+    .formato{
+        width: 200px;
+        height: 400px;
+       background-color: black;
+        position: absolute;
+        top: 20%;
+        border-radius: 30px;
+       
+    
+    }
+    
+        .ligado{
+         --apagado: transparent;
+         --opacidade: 1;
+        }
+    
+    .ppp{
+        width: 200px;
+        height: 400px;
+        background-color: var(--apagado);
+        position: absolute;
+        border-radius: 30px;
+        top: -870%;
+        left: -10px;
+    }
+        .papel-de-parede{
+            color: aquamarine;
+            z-index: 1;
+            position: absolute;
+        }
+    
+    .papel-de-parede2{
+    width: 194px;
+        height: 396px;
+       position: absolute;
+       border-radius: 30px;
+       left: 2px;
+       right: 2px;
+       top: 2px;    
+       z-index: 0;
+      
+       
+    }
+    
+    .camera-frontal{
+        width: 50px;
+        height:8px;
+        position: absolute;
+        background-color: black;
+        border-radius: 30px;
+        left: 79px;
+        top: 2%;
+    }
+    .botao-lateral{
+        width: 10px;
+        height:30px;
+        position: absolute;
+        background-color: black;
+        border-radius: 30px;
+        left: 300px;
+        top: px;
+        
+    }
+    .DOCK{
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 178px;
+        height: 40px;
+        top: 350px;
+        border-radius: 40px;
+        left: 10px;
+    }
+    .APP-CALCULADORA {
+        width: 35px;
+        height: 35px;
+        left: 25px;
+        object-fit: cover;
+        position: absolute;
+        top: 351px;
+        z-index: 0;
+        opacity: var(--opacidade);
+        padding: -3px ;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+    
+    .APP-ZAP{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        object-fit: cover;
+        border-radius: 10px;
+        top: 352px;
+        left: 70px;
+        opacity: var(--opacidade);
+    }
+    
+    .APP-Insta{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        object-fit: cover;
+        border-radius: 10px;
+        top: 352px;
+        left: 115px;
+        opacity: var(--opacidade);
+    }
+    
+    .Ligarcell{
+        width: 10px;
+        height:30px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    
+    /*---------FONTES---------*/
+    @font-face {
+        font-family: MEU-NOME;
+        src: url(FONTES/SunshineTropical.ttf);
+    }
