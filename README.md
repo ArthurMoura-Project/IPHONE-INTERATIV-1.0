@@ -2,8 +2,6 @@
 
 📍Em cada pasta esta o .html, .css e o .js de cada um
 
-📌Link :
-
 👀 Preview◽
 
 https://github.com/user-attachments/assets/31648a1a-6dea-4cb5-a994-501863d06bfe
